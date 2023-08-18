@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+    <style>
+            tr{
+                text-align: left;
+                vertical-align: top;
+            }
+            th{
+                width: 100;
+            }
+            td{
+                width: 200;
+            }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h2>
+            <u>
+                HTML Forms
+            </u>
+        </h2>
+    </div>
+        <hr>
+    <div align="center">
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>First Name:</th>
+                <td><input type="text" placeholder="eg: Thomas"></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td><input type="text" placeholder="eg: Shelby"></td>
+            </tr>
+            <tr>
+                <th>Class:</th>
+                <td>
+                    <select name="classname" id="c1" size="1">
+                        <option value="1">Nursery</option>
+                        <option value="2">LKG</option>
+                        <option value="3">UKG</option>
+                        <option value="4">1</option>
+                        <option value="5">2</option>
+                        <option value="6">3</option>
+                        <option value="7">4</option>
+                        <option value="8">5</option>
+                        <option value="9">6</option>
+                        <option value="10">7</option>
+                        <option value="11">8</option>
+                        <option value="2">9</option>
+                        <option value="2">10</option>
+                        <option value="2">11</option>
+                        <option value="2">12</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Sex:</th>
+                <td>
+                    <input type="radio" name="sex">Male
+                    <input type="radio" name="sex">Female
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <th rowspan="4">Which of these do you own?</th>
+                <td>
+                    <input type="checkbox" name="gadgets">Smartphone
+                </td>
+                <td>
+                    <input type="checkbox" name="gadgets">Smartwatch
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="gadgets">Laptop/PC
+                </td>
+                <td>
+                    <input type="checkbox" name="gadgets">Headphones
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
